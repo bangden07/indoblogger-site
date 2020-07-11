@@ -4,6 +4,8 @@ machine:
 
 dependencies:
   post:
+    - bundle install
+    - bundle update
     - bundle exec jekyll build
 
 test:
