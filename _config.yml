@@ -1,0 +1,65 @@
+# Site
+name: 'Indo Blogger'
+description: 'Komunitas Blogger Indonesia.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+disqus: 'demowebsite'
+email: 'indogocloud@gmail.com'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+include: ["_pages"]
+permalink: /:categories/:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    sal:
+      name:           Indo-Blogger
+      site:           https://www.indoblogger.or.id
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Indo Blogger Official Team"
+      email:          indogocloud@gmail.com
+      twitter:        https://twitter.com/indoblogger
+
+    jane:
+      name:           Bang-Den
+      site:           https://bangden.codes
+      avatar:         /assets/images/avatar2.jpg
+      bio:            "Blogger, codes and write on my morning coffee!"
+      email:          bangden07@yandex.com
+      twitter:        https://twitter.com/bangden07
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: sal
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
