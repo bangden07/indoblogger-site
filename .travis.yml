@@ -3,13 +3,13 @@ rvm:
   - 2.7.0
 
 install:
+  - bundle update
   - bundle install
   - gem install jekyll
   - gem install jekyll-sitemap
   - gem install jekyll-feed
   - gem install jekyll-paginate
   - gem install jekyll-seo-tag
-  - bundle update
 
 branches:
   only:
