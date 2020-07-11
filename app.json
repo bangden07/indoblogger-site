@@ -1,0 +1,7 @@
+{
+    "name": "Blog Site With Jekyll",
+    "description": "Deploy blog site menggunakan Jekyll by Bang Den",
+    "repository": "https://github.com/bangden07/indoblogger-site",
+    "logo": "https://www.linuxer.or.id/logo.png",
+    "keywords": ["blog", "jekyll", "static"]
+  }
