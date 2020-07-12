@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 4.0.0"
+
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
